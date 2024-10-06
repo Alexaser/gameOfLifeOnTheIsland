@@ -31,6 +31,7 @@ public class Animal {
         if (currentPopulation >= this.getMaxPopulation()) {
             return;
         }
+
         // Если есть хотя бы два животных этого вида на локации, возможна репродукция
         if (currentPopulation >= 2) {
             Random random = new Random();
